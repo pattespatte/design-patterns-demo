@@ -1,0 +1,29 @@
+# Grundkonfiguration för Jekyll och Just the Docs
+title: Gemensamma designmönster
+description: Designmönster med god tillgänglighet för svenska myndigheter
+theme: just-the-docs
+
+url: https://pattespatte.github.io
+baseurl: /design-patterns-demo
+
+# Sökfunktion
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+
+# Navigering
+nav_sort: case_sensitive
+
+# Externa länkar
+aux_links:
+  "GitHub":
+    - "//github.com/pattespatte/design-patterns-demo"
+
+# Footer
+footer_content: "Copyright &copy; 2025 Gemensamma designmönster. <a href=\"https://github.com/pattespatte/design-patterns-demo/blob/main/LICENSE\">MIT license</a>"
+
+# Färgtema
+color_scheme: light
