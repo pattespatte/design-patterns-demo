@@ -1,14 +1,14 @@
 # Grundkonfiguration för Jekyll och Just the Docs
-title: Gemensamma designmönster
+title: Designmönster
 description: Designmönster med god tillgänglighet för svenska myndigheter
 
-# VIKTIGT: Använd remote_theme istället för theme
+# Använd remote_theme istället för theme
 remote_theme: just-the-docs/just-the-docs@v0.8.2
 
 url: https://pattespatte.github.io
 baseurl: /design-patterns-demo
 
-# LÄGG TILL DESSA RADER FÖR ATT FIXA SÖKVÄGAR
+# LÄgg till dessa rader för att fixa sökvägar
 logo: false
 search_enabled: true
 search_tokenizer_separator: /[\s/]+/
@@ -25,7 +25,7 @@ aux_links:
 aux_links_new_tab: true
 
 # Footer
-footer_content: "Copyright &copy; 2024 Gemensamma designmönster."
+footer_content: "Copyright &copy; 2025 designmönster med god tillgänglighet."
 
 # Collections
 collections:
