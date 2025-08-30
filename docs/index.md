@@ -14,13 +14,15 @@ Våra designmönster hjälper dig att lösa vanliga designutmaningar på ett kon
 Vi har utvecklat mönster för följande områden:
 
 ### Formulär och inmatning
+
 - [Adressformulär](adressformular) - Samla in adressinformation
 - [Namn](namn) - Be om användarens namn
 - [Personnummer](personnummer) - Hantera personnummer säkert
 
 ### Feedback och navigation
+
 - [Felmeddelanden](felmeddelanden) - Visa tydliga felmeddelanden
-- [Tillbaka-länkar](tillbaka-lankar) - Hjälp användare navigera
+- [Tillbakalänkar](tillbakalankar) - Hjälp användare navigera
 
 ## Bidra med nya mönster
 

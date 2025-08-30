@@ -1,27 +1,27 @@
-// Anpassad styling som liknar Gov.uk
+// Custom styling that resembles Gov.uk
 $link-color: #1d70b8;
 $border-color: #b1b4b6;
 
-// Svenskt myndighetsblått
+// Swedish governmental blue
 $sidebar-color: #005293;
 $nav-child-link-color: #005293;
 
-// Större typsnitt för bättre läsbarhet
+// Larger font sizes for better readability
 $body-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 $root-font-size: 18px;
 
-// Tydligare rubriker
-h1 { 
-  font-size: 2.5rem; 
+// Clearer headings
+h1 {
+  font-size: 2.5rem;
   margin-bottom: 1.5rem;
 }
 
-h2 { 
-  font-size: 1.75rem; 
+h2 {
+  font-size: 1.75rem;
   margin-top: 2.5rem;
 }
 
-// Exempel-boxar
+// Example containers
 .example {
   border: 2px solid $border-color;
   padding: 1.5rem;
@@ -29,7 +29,7 @@ h2 {
   background-color: #f3f2f1;
 }
 
-// Gör/gör inte
+// Dos and don'ts
 .do-dont {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -37,7 +37,8 @@ h2 {
   margin: 1.5rem 0;
 }
 
-.do, .dont {
+.do,
+.dont {
   padding: 1rem;
   border-radius: 4px;
 }
@@ -50,4 +51,25 @@ h2 {
 .dont {
   background-color: #fcd6d3;
   border-left: 4px solid #d4351c;
+}
+
+/* Make the caret button (arrow) easier to hit */
+.nav-list .nav-list-expander.btn-reset {
+  padding: 0.4rem;
+  /* bigger hit area around the icon */
+  margin: -0.2rem 0;
+  /* don't push the text down */
+  border-radius: 4px;
+  /* optional: nicer focus ring */
+}
+
+.nav-list .nav-list-expander.btn-reset:focus {
+  outline: 3px solid #1d70b8;
+  outline-offset: 2px;
+}
+
+/* Make top-level labels without href feel clickable */
+.nav-list .nav-list-link:not([href]) {
+  cursor: pointer;
+  user-select: none;
 }
