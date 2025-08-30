@@ -19,7 +19,7 @@ search_tokenizer_separator: /[\s/]+/
 heading_level: 2
 
 # Color scheme
-color_scheme: light
+# color_scheme: light
 
 # Aux links
 aux_links:
