@@ -1,14 +1,14 @@
-# Grundkonfiguration för Jekyll och Just the Docs
+# Basic configuration for Jekyll and Just the Docs
 title: Designmönster
 description: Designmönster med god tillgänglighet för svenska myndigheter
 
-# Använd remote_theme istället för theme
+# Use remote_theme instead of theme
 remote_theme: just-the-docs/just-the-docs@v0.10.1
 
 url: https://pattespatte.github.io
 baseurl: /design-patterns-demo
 
-# Lägg till dessa rader för att fixa sökvägar
+# Additional configuration
 logo: false
 search_enabled: true
 search_tokenizer_separator: /[\s/]+/
