@@ -9,7 +9,8 @@ url: https://pattespatte.github.io
 baseurl: /design-patterns-demo
 
 # Set the site language to Swedish
-lang: sv
+lang: sv-SE
+locale: sv_SE
 
 # Additional configuration
 logo: false
