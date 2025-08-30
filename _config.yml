@@ -3,7 +3,7 @@ title: Designmönster
 description: Designmönster med god tillgänglighet för svenska myndigheter
 
 # Use remote_theme instead of theme to get the latest updates
-theme: just-the-docs/just-the-docs@v0.10.1
+remote_theme: just-the-docs/just-the-docs@v0.10.1
 
 url: https://pattespatte.github.io
 baseurl: /design-patterns-demo
