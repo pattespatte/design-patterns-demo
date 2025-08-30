@@ -8,7 +8,7 @@ remote_theme: just-the-docs/just-the-docs@v0.8.2
 url: https://pattespatte.github.io
 baseurl: /design-patterns-demo
 
-# LÄgg till dessa rader för att fixa sökvägar
+# Lägg till dessa rader för att fixa sökvägar
 logo: false
 search_enabled: true
 search_tokenizer_separator: /[\s/]+/
@@ -25,7 +25,7 @@ aux_links:
 aux_links_new_tab: true
 
 # Footer
-footer_content: "Copyright &copy; 2025 designmönster med god tillgänglighet."
+footer_content: "Copyright &copy; 2025 Gemensamma designmönster med god tillgänglighet."
 
 # Collections
 collections:
