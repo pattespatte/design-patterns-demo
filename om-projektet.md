@@ -12,7 +12,7 @@ nav_order: 3
 
 ## Våra principer
 
-1. **Tillgänglighet först** - Alla mönster ska uppfylla WCAG 2.1 AA
+1. **Tillgänglighet först** - Alla mönster ska uppfylla WCAG 2.2 AA
 2. **Användaren i centrum** - Baserat på verkliga användarbehov
 3. **Öppen samverkan** - Alla myndigheter kan bidra
 

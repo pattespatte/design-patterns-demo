@@ -22,7 +22,7 @@ Varje mönster innehåller:
 
 ## Kom igång
 
-Utforska våra [designmönster](/design-patterns-demo/monster/) eller läs mer [om projektet](/design-patterns-demo/om-projektet).
+Utforska våra [designmönster](/design-patterns-demo/docs/) eller läs mer [om projektet](/design-patterns-demo/om-projektet).
 
 ---
 

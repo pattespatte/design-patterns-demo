@@ -6,7 +6,7 @@ description: Designmönster med god tillgänglighet för svenska myndigheter
 remote_theme: just-the-docs/just-the-docs@v0.8.2
 
 url: https://pattespatte.github.io
-baseurl: /designmonster-demo
+baseurl: /design-patterns-demo
 
 # LÄGG TILL DESSA RADER FÖR ATT FIXA SÖKVÄGAR
 logo: false
@@ -20,7 +20,7 @@ color_scheme: light
 # Aux links
 aux_links:
   "GitHub":
-    - "//github.com/pattespatte/designmonster-demo"
+    - "//github.com/pattespatte/design-patterns-demo"
 
 aux_links_new_tab: true
 
