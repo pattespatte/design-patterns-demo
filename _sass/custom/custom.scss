@@ -23,11 +23,19 @@ h2 {
 
 // Add with support for light/dark
 .example {
-  border: 2px solid $grey-dk-200; // Changes automatically
+  border: 2px solid $grey-lt-300;
   padding: 1.5rem;
   margin: 1.5rem 0;
-  background-color: $grey-dk-000; // Changes automatically
-  color: $body-text-color; // Changes automatically
+  background-color: rgba(135, 135, 135, 0.1);
+  color: $body-text-color;
+
+  >h3 {
+    color: $body-text-color;
+  }
+
+  & input {
+    background-color: $grey-lt-200;
+  }
 }
 
 // Dos and don'ts
