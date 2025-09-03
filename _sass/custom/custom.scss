@@ -100,6 +100,19 @@ h2 {
 	user-select: none;
 }
 
+/* >>> Remove accordion like menu */
+/* Show all nested lists */
+#site-nav .nav-list .nav-list {
+	display: block !important;
+}
+
+/* Optional: hide the toggle buttons if everything is always open */
+#site-nav .nav-list-expander {
+	display: none;
+}
+
+/* <<< Remove accordion like menu */
+
 .js-toggle-dark-mode {
 	margin-left: 1rem;
 	background: transparent;
